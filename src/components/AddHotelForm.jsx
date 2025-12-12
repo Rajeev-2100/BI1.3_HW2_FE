@@ -38,7 +38,7 @@ const AddHotelForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    console.log(formData)
     try {
       const response = await fetch("https://bi-1-3-hw-2-be.vercel.app/", {
         method: "POST",
